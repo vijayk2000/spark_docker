@@ -46,5 +46,5 @@ ENV PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
 
 COPY entrypoint.sh .
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["bash","./entrypoint.sh"]
  
