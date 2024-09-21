@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 
 /docker-compose.generated.yml
+
+book_data/results.csv
